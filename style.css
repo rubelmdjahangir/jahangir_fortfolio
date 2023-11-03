@@ -1,0 +1,429 @@
+/* ======= common section start ======== */
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+/* ======= common section End   ======== */
+
+
+/* ======= Header scetion start ===== */
+#header{
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1;
+}
+#header .row{
+    justify-content: space-between;
+    align-items: center;
+    margin: 13px;
+}
+#header .logo a{
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 15px;
+}
+#header li{
+    margin: 0px 20px;
+}
+#header li a{
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#header li a:hover{
+    color: #3bbbff;
+}
+/* ======= Header scetion End    ===== */
+
+/* ======= banner section start ======= */
+#banner{
+    background-color: #eee;
+    width: 100%;
+}
+#banner .row{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+#banner .banner_text{
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+#banner .banner_text h3{
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+#banner .banner_text h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 30px 0 15px 0;
+}
+#banner .banner_text p{
+    color: rgba(148, 144, 144, 0.9);
+    text-transform: lowercase;
+    margin-right: 80px;
+}
+#banner .banner_text button{
+    margin-top: 20px ;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    background-color:rgb(131, 146, 253);
+    color: white;
+    font-size: 14px;
+    border: none;
+    font-weight: bold;
+}
+#banner .banner_text button:hover{
+    box-shadow: 2px 10px 30px rgba(130, 147, 255, 0.5);
+    transition: all 0.5s ease-in 0.25;
+}
+#banner .banner_img{
+    max-width: 100%;
+    margin-right: 20px;
+}
+/* ======= banner section End ======= */
+
+
+
+/* ======= about section start ====== */
+#about{
+    width: 100%;
+    text-transform: uppercase;
+}
+#about .row{
+    justify-content: center;
+    align-items: center;
+}
+#about .about_img{
+    width: 60%;
+    margin-top: 60px;
+}
+#about .about_text{
+    width: 40%;
+}
+#about .about_text h3{
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+#about .about_text h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px 0 15px 0;
+}
+#about .about_text P{
+    color: rgba(148, 144, 144, 0.9);
+    text-transform: lowercase;
+    margin-right: 80px;
+}
+#about .about_text button{
+    margin-top: 20px;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    background-color: rgb(131, 146, 253);
+    color: white;
+    font-size: 14px;
+    border: none;
+    font-weight: bold;
+}
+#about .about_text button:hover{
+    box-shadow: 2px 10px 30px rgba(130, 147, 255, 0.5);
+    transition: all 0.5s ease-in 0.25;
+}
+/* ======= about section End ========= */
+
+
+/* ====== service section start ===== */
+   
+    #service .service_heading{
+        text-align: center;
+        margin-top: 100px;
+    }
+    #service .service_heading h1{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    #service .service_heading p{
+       width: 650px;
+       margin: auto;
+       color: rgba(148, 144, 144, 0.9);
+    }
+    #service .service_item {
+        width: 100%;
+        margin: 70px 0px;
+    }
+    #service .service_inner{
+        width: 33%;
+        margin: 20px;
+        text-align: center;
+    }
+    #service .service_inner i{
+        font-size: 35px;
+    }
+    #service .service_inner h4{
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: capitalize;
+        margin: 40px 0px 20px 0px;
+        color: #000;
+    }
+    #service .service_inner p{
+        color: rgba(148, 144, 144, 0.9);
+        font-size: 16px;
+    }
+    #service .service_inner:hover i{
+        color: #2c7fac;
+    }
+    #service .service_inner:hover h4{
+        color: #2c7fac;
+    }
+/* ====== service section End ======= */
+
+
+
+/* ====== counter section start =====  */
+#counter{
+    width:100%;
+    height:320px;
+    background-color: rgb(125, 154, 254);
+    margin-bottom: 100px;
+    position: relative;
+}
+#counter .row{
+    justify-content: center;
+    align-items: ;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+#counter .counter_item{
+    margin:0px 140px 0 0;
+    font-size: 20px;
+    color: #fff;
+}
+#counter .counter_item h2{
+    text-align: center;
+    font-weight: 900;
+}
+/* ====== counter section end  =====  */
+
+
+/* ====== featured section start ==== */
+#featured{
+    margin: 100px;
+}
+#featured .featured_heading{
+    text-align: center;
+}
+#featured .featured_heading h1{
+   font-size: 40px;
+    font-weight: bold;
+}
+#featured .featured_heading p{
+    color: rgba(148, 144, 144, 0.9);
+    margin: 10px 0 30px 0;
+}
+#featured .featured_heading .row{
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0 50px 0;
+}
+#featured .featured_heading .row li a{
+    margin-right: 25px;
+    font-weight: bold;
+    color: #272222;
+    font-size: 14px;
+}
+#featured .featured_box{
+    margin: 18px;
+    text-align: center;
+}
+#featured .featured_box figure{
+  background: #9e3535;
+  width: 340px;
+  height: 339px;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  border-radius: 3px;
+}
+#featured .featured_box figure:hover img{
+    opacity: 0.3;
+    transition: 3s;
+}
+#featured .featured_box h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#featured .featured_box p{
+    color: rgba(148, 144, 144, 0.9);
+}
+/* ====== featured section end ===== */
+
+
+
+/* ===== pricing section start ===== */
+#price .container{
+    background-color: #eee;
+}
+#price .price_heading{
+    text-align: center;
+}
+#price .price_heading h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#price .price_heading p{
+    color: rgba(148, 144, 144, 0.9);
+}
+#price .row{
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+#price .price_item{
+    text-align: center;
+     padding: 60px 34px;
+}
+#price .price_item:hover{
+    background-color: #3bbbff;
+    transition: 2s ease-in-out;
+}
+
+#price .price_top{
+    margin: 0px 50px;
+}
+#price .price_top h1{
+    width: 120px;
+    height: 120px;
+    border: 25px rgb(47, 57, 199) solid;
+    border-radius: 50%;  
+    padding-top: 18px;
+    font-size: 30px;
+}
+#price .price_top h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 16px;
+}
+#price .price_top p{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+#price .price_list li{
+    margin: 20px 0px;
+}
+#price .price_buttom{
+    margin-top: 20px;
+}
+#price .price_buttom h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#price .price_buttom a{
+   visibility: hidden;
+   height: 5px;
+   width: 5px;
+   border: 2px solid black;
+   padding: 10px 70px;
+   background-color: #fff;
+   font-size: 16px;
+   font-weight: bold;
+   color: #000;
+}
+#price .price_item:hover a{
+    visibility: visible;
+}
+/* ===== pricing section End   ===== */
+
+/* ====== footer section start ==== */
+#footer{
+    background-color: #04091E;
+    color: rgba(148, 144, 144, 0.9);
+    text-transform: capitalize;
+}
+#footer .container{
+    padding: 120px 0px;
+}
+#footer .about_me{
+    width: 40%;
+}
+#footer .about_me h4{
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#footer .news_letter{
+    width: 45%;
+}
+#footer .news_letter h4{
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#footer .news_letter input{
+    width: 350px;
+    padding: 12px;
+    font-size: 15px;
+}
+#footer .news_letter button{
+    padding: 10px;
+    background-color: green;
+   
+}
+#footer .news_letter button a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+#footer .follow_me{
+    width: 15%;
+}
+#footer .follow_me h4{
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#footer .follow_me .row i{
+    font-size: 20px;
+    margin: 10px;
+    color: #fff;
+}
+#footer .copy_right{
+    text-align: center;
+    padding: 10px;
+    word-spacing: 5px;
+    font-size: 20px;
+    background-color: black;
+    color: #fff;
+}
+/* ====== footer section end   ==== */
